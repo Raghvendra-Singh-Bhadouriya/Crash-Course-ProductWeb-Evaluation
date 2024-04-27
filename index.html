@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <h1>Product Listing Page</h1>
+            <div id="search-and-twoselect-div">
+               
+                <select id="category">
+                    <option value="men's clothing">men's clothing</option>
+                    <option value="women's clothing">women's clothing</option>
+                    <option value="jewelery">jewelery</option>
+                    <option value="electronics">electronics</option>
+                </select>
+
+                <input id="search" type="text" placeholder="search products..."/>
+                <button id="searchBtn">search</button>
+               
+                <select id="sort-price">
+                    <option value="">Select By Price</option>
+                    <option value="lowtohigh">Price: Low To High</option>
+                    <option value="hightolow">Price: High To Low</option>
+                </select>
+            </div>
+        </nav>
+        <div id="show-products"></div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
